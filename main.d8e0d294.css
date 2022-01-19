@@ -458,7 +458,7 @@ h5 {
 }
 .h6,
 h6 {
-  font-size: 14px;
+  font-size: 12px;
 }
 p {
   margin: 0 0 12.5px;
@@ -2031,7 +2031,7 @@ input[type="radio"][disabled] {
 .input-sm {
   height: 35px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -2055,7 +2055,7 @@ textarea.input-sm {
 .form-group-sm .form-control {
   height: 35px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -2071,7 +2071,7 @@ textarea.input-sm {
   height: 35px;
   min-height: 39px;
   padding: 7px 12px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
 }
 .input-group-lg > .form-control,
@@ -2356,7 +2356,7 @@ textarea.input-lg {
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 7px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .btn {
@@ -2774,15 +2774,16 @@ fieldset[disabled] .btn-link:hover {
 }
 .btn-group-sm > .btn,
 .btn-sm {
-  padding: 6px 12px;
+  padding: 2px 12px;
   font-size: 14px;
-  line-height: 1.5;
-  border-radius: 50px;
+  line-height: 1;
+  border-radius: 20px;
+  margin-left: 5px;
 }
 .btn-group-xs > .btn,
 .btn-xs {
   padding: 1px 5px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   border-radius: 50px;
 }
@@ -2932,7 +2933,7 @@ tbody.collapse.in {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.58;
   color: #777;
   white-space: nowrap;
@@ -3217,7 +3218,7 @@ tbody.collapse.in {
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 3px;
 }
 .input-group-addon.input-lg,
@@ -3776,8 +3777,8 @@ tbody.collapse.in {
 }
 .btn-group-xs > .navbar-btn.btn,
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .navbar-text {
   margin-top: 12.5px;
@@ -4067,7 +4068,7 @@ a.label:hover {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   color: #fff;
   line-height: 1;
@@ -4980,12 +4981,12 @@ h5 small {
 }
 .carousel-indicators li {
   border-color: #000;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
 }
 .carousel-indicators .active {
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   margin: 1px;
   background-color: #000;
 }
